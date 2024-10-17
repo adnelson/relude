@@ -32,15 +32,12 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@glennsl/bs-jest": "^0.7.0",
-    "bs-bastet": "^2.0.0",
-    "docsify-cli": "~4.4.0"
+    "bs-bastet": "https://github.com/adnelson/bastet.git#rescript-11.0",
+    "docsify-cli": "~4.4.0",
+    "rescript": "^11"
   },
   "peerDependencies": {
     "bs-bastet": "^2.0.0"
-  },
-  "dependencies": {
-    "bisect_ppx": "^2.7.1"
   },
   "jest": {
     "verbose": false,

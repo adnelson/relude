@@ -1,5 +1,6 @@
 {
   "name": "relude",
+  "uncurried": false,
   "bsc-flags": [
     "-bs-no-version-header",
     "-bs-super-errors"
@@ -22,25 +23,14 @@
   },
   "suffix": ".bs.js",
   "bs-dependencies": [
-    "bisect_ppx",
     "bs-bastet"
   ],
-  "bs-dev-dependencies": [
-    "@glennsl/bs-jest"
-  ],
+  "bs-dev-dependencies": [],
   "warnings": {
     "number": "+A-4-29-40-42-60",
     "error": "+A"
   },
   "namespace": false,
   "refmt": 3,
-  "ppx-flags": [
-    [
-      "bisect_ppx/ppx",
-      "--exclude-files",
-      ".*_test.re$$",
-      "--exclude-files",
-      ".*/testUtils/.*.re$$"
-    ]
-  ]
+  "ppx-flags": []
 }
